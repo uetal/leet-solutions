@@ -27,7 +27,7 @@ import java.util.stream.Collectors;
  * C can be placed before D (500) and M (1000) to make 400 and 900.
  * Given a roman numeral, convert it to an integer.
  */
-class Solution013 {
+class Solution0013 {
     public int romanToInt(String s) {
         String[] numbers = s.split("");
         int res = 0;
@@ -88,7 +88,7 @@ class Solution013 {
     }
 
     public static void test(String s, int i) {
-        Solution013 sol = new Solution013();
+        Solution0013 sol = new Solution0013();
         int res = sol.romanToInt(s);
         assert res == i;
     }

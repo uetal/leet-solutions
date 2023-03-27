@@ -32,7 +32,7 @@ Constraints:
 s consists of parentheses only '()[]{}'.
  */
 
-public class Solution020 {
+public class Solution0020 {
     public static boolean isValid(String s) {
         Map<String, String> map = Map.of(
                 ")","(",

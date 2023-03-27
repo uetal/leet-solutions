@@ -10,7 +10,7 @@ import java.util.*;
  * <p>
  * You can return the answer in any order.
  */
-public class Solution001 {
+public class Solution0001 {
 
     public int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
@@ -27,8 +27,8 @@ public class Solution001 {
     }
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(new Solution001().twoSum(new int[]{2, 7, 11, 15}, 9)));
-        System.out.println(Arrays.toString(new Solution001().twoSum(new int[]{3, 2, 4}, 6)));
-        System.out.println(Arrays.toString(new Solution001().twoSum(new int[]{3, 3}, 6)));
+        System.out.println(Arrays.toString(new Solution0001().twoSum(new int[]{2, 7, 11, 15}, 9)));
+        System.out.println(Arrays.toString(new Solution0001().twoSum(new int[]{3, 2, 4}, 6)));
+        System.out.println(Arrays.toString(new Solution0001().twoSum(new int[]{3, 3}, 6)));
     }
 }

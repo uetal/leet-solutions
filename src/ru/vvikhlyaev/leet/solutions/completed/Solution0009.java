@@ -9,7 +9,7 @@ package ru.vvikhlyaev.leet.solutions.completed;
  *
  * For example, 121 is a palindrome while 123 is not.
  */
-class Solution009 {
+class Solution0009 {
     public boolean isPalindrome(int x) {
         String xStringValue = String.valueOf(x);
         String xStringValueReverse = new StringBuilder(xStringValue).reverse().toString();
@@ -17,7 +17,7 @@ class Solution009 {
     }
 
     public static void main(String[] args) {
-        Solution009 s = new Solution009();
+        Solution0009 s = new Solution0009();
         System.out.println(s.isPalindrome(121));
         System.out.println(s.isPalindrome(-121));
         System.out.println(s.isPalindrome(10));

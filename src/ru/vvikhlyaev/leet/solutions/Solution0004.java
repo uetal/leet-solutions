@@ -4,13 +4,13 @@ import static ru.vvikhlyaev.leet.util.Util.testTwoArraysToDouble;
 
 /**
  * TODO не сделал
- * Solution004
+ * Solution0004
  *
  * Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
  * <p>
  * The overall run time complexity should be O(log (m+n)).
  */
-public class Solution004 {
+public class Solution0004 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
@@ -54,18 +54,18 @@ public class Solution004 {
     }
 
     public static void main(String[] args) {
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{1, 2, 3}, new int[0], 2.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}, new int[0], 9.50000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{1, 3}, new int[0], 2.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[0], new int[]{1, 2}, 1.50000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{1, 2, 3, 4, 5}, new int[]{6, 7}, 4.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{6, 7}, new int[]{1, 2, 3, 4, 5}, 4.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{1, 3}, new int[]{2}, 2.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{1, 2, 3, 4, 5, 6}, new int[]{2, 3}, 3.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{1, 2}, new int[]{2}, 2.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{1, 2}, new int[]{3, 4}, 2.50000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{0, 0}, new int[]{0, 0}, 0.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[]{1}, new int[0], 1.00000);
-        testTwoArraysToDouble(Solution004::findMedianSortedArrays, new int[0], new int[]{2}, 2.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{1, 2, 3}, new int[0], 2.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19}, new int[0], 9.50000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{1, 3}, new int[0], 2.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[0], new int[]{1, 2}, 1.50000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{1, 2, 3, 4, 5}, new int[]{6, 7}, 4.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{6, 7}, new int[]{1, 2, 3, 4, 5}, 4.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{1, 3}, new int[]{2}, 2.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{1, 2, 3, 4, 5, 6}, new int[]{2, 3}, 3.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{1, 2}, new int[]{2}, 2.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{1, 2}, new int[]{3, 4}, 2.50000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{0, 0}, new int[]{0, 0}, 0.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[]{1}, new int[0], 1.00000);
+        testTwoArraysToDouble(Solution0004::findMedianSortedArrays, new int[0], new int[]{2}, 2.00000);
     }
 }

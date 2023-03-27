@@ -33,7 +33,7 @@ import static java.util.Optional.ofNullable;
  * Both list1 and list2 are sorted in non-decreasing order.
  */
 
-public class Solution021 {
+public class Solution0021 {
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode list1Next = null;
         ListNode list2Next = null;

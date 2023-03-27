@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Solution002
+ * Solution0002
  *
  * You are given two non-empty linked lists representing two non-negative integers.
  * The digits are stored in reverse order, and each of their nodes contains a single digit.
@@ -12,7 +12,7 @@ import java.util.List;
  * <p>
  * You may assume the two numbers do not contain any leading zero, except the number 0 itself.
  */
-public class Solution002 {
+public class Solution0002 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null) {
@@ -45,7 +45,7 @@ public class Solution002 {
     }
 
     public static void main(String[] args) {
-        Solution002 atn = new Solution002();
+        Solution0002 atn = new Solution0002();
 //        atn.test(new ListNode(1, new ListNode(4)), new ListNode(2));
 //        atn.test(new ListNode(2, new ListNode(4, new ListNode(3))),
 //                new ListNode(5, new ListNode(6, new ListNode(4)))); //708

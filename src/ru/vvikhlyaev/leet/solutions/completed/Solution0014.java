@@ -26,7 +26,7 @@ package ru.vvikhlyaev.leet.solutions.completed;
  * 0 <= strs[i].length <= 200
  * strs[i] consists of only lowercase English letters.
  */
-public class Solution014 {
+public class Solution0014 {
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 1) {
             return strs[0];
@@ -54,7 +54,7 @@ public class Solution014 {
     }
 
     public static void main(String[] args) {
-        Solution014 s = new Solution014();
+        Solution0014 s = new Solution0014();
         System.out.println(s.longestCommonPrefix(new String[]{"flower", "flow", "flight"}));
         System.out.println(s.longestCommonPrefix(new String[]{"dog", "racecar", "car"}));
         System.out.println(s.longestCommonPrefix(new String[]{""}));

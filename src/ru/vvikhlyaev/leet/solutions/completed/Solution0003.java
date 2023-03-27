@@ -6,11 +6,11 @@ import java.util.stream.Collectors;
 import static ru.vvikhlyaev.leet.util.Util.testInputStringOutputInt;
 
 /**
- * Solution003
+ * Solution0003
  *
  * Given a string s, find the length of the longest substring without repeating characters.
  */
-public class Solution003 {
+public class Solution0003 {
     public static int lengthOfLongestSubstring(String s) {
         if (s.isEmpty()) {
             return 0;
@@ -37,15 +37,15 @@ public class Solution003 {
     }
 
     public static void main(String[] args) {
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "wobgrovw", 6);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "bdb", 2);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "anviaj", 5);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "dvdf", 3);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "au", 2);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "abcabcbb", 3);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "bbbbb", 1);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "pwwkew", 3);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, "", 0);
-        testInputStringOutputInt(Solution003::lengthOfLongestSubstring, " ", 1);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "wobgrovw", 6);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "bdb", 2);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "anviaj", 5);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "dvdf", 3);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "au", 2);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "abcabcbb", 3);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "bbbbb", 1);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "pwwkew", 3);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, "", 0);
+        testInputStringOutputInt(Solution0003::lengthOfLongestSubstring, " ", 1);
     }
 }

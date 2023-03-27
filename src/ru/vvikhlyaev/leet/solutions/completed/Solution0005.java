@@ -3,11 +3,11 @@ package ru.vvikhlyaev.leet.solutions.completed;
 import java.util.Arrays;
 
 /**
- * Solution005
+ * Solution0005
  * <p>
  * Given a string s, return the longest palindromic substring in s.
  */
-public class Solution005 {
+public class Solution0005 {
     public String longestPalindrome(String s) {
         char[] arr = s.toCharArray();
         char[] palindromeCharArray = new char[0];
@@ -42,8 +42,8 @@ public class Solution005 {
     }
 
     private static void test(String actual, String expected) {
-        Solution005 solution005 = new Solution005();
-        String actualResult = solution005.longestPalindrome(actual);
+        Solution0005 solution0005 = new Solution0005();
+        String actualResult = solution0005.longestPalindrome(actual);
         if (!actualResult.equals(expected)) {
             System.err.println("actual: %s, expected: %s".formatted(actualResult, expected));
         }
