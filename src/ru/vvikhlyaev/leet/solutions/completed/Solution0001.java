@@ -1,9 +1,10 @@
 package ru.vvikhlyaev.leet.solutions.completed;
 
 import java.util.*;
+
 /**
  * Two sum
- *
+ * <p>
  * Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
  * <p>
  * You may assume that each input would have exactly one solution, and you may not use the same element twice.
@@ -12,18 +13,34 @@ import java.util.*;
  */
 public class Solution0001 {
 
+//    public int[] twoSum(int[] nums, int target) {
+//        Set<Integer> set = new HashSet<>();
+//        for (int i = 0; i <nums.length; i ++) {
+//            int found = target - nums[i];
+//            boolean foundIndexInMap = set.contains(found);
+//            if (!foundIndexInMap) {
+//                set.add(nums[i]);
+//            } else {
+//                return new int[] {found, nums[i]};
+//            }
+//        }
+//        return null;
+//    }
+
     public int[] twoSum(int[] nums, int target) {
-        Map<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i <nums.length; i ++) {
-            int found = target - nums[i];
-            Integer foundIndexInMap = map.get(found);
-            if (foundIndexInMap == null) {
-                map.put(nums[i], i);
-            } else {
-                return new int[] {foundIndexInMap, i};
-            }
+        Arrays.sort(nums);
+        int leftIndex = 0;
+        int rightIndex = nums.length - 1;
+        while (leftIndex < rightIndex) {
+            int foundedSum = nums[leftIndex] + nums[rightIndex];
+            if (foundedSum == target)
+                return new int[]{nums[leftIndex], nums[rightIndex]};
+            if (foundedSum > target)
+                rightIndex--;
+             else
+                leftIndex++;
         }
-        return null;
+        return new int[0];
     }
 
     public static void main(String[] args) {
