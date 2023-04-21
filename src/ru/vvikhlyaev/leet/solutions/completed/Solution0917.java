@@ -1,6 +1,8 @@
+package ru.vvikhlyaev.leet.solutions.completed;
+
 import static ru.vvikhlyaev.leet.util.Util.createCycleToInputStrings;
 
-public class Solution {
+public class Solution0917 {
 
     /**
      * Given a string s, reverse the string according to the following rules:
@@ -9,7 +11,6 @@ public class Solution {
      * All the English letters (lowercase or uppercase) should be reversed.
      * Return s after reversing it.
      *
-     * @param s
      * @return
      */
     public static String reverseOnlyLetters(String s) {
@@ -29,6 +30,6 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        createCycleToInputStrings(Solution::reverseOnlyLetters);
+        createCycleToInputStrings(Solution0917::reverseOnlyLetters);
     }
 }

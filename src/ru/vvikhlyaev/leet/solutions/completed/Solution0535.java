@@ -8,9 +8,9 @@ import java.util.*;
  *
  * There is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.
  *
- * Implement the Solution class:
+ * Implement the ru.vvikhlyaev.leet.solutions.completed.Solution class:
  *
- * Solution() Initializes the object of the system.
+ * ru.vvikhlyaev.leet.solutions.completed.Solution() Initializes the object of the system.
  * String encode(String longUrl) Returns a tiny URL for the given longUrl.
  * String decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.
  *
@@ -21,7 +21,7 @@ import java.util.*;
  * Output: "https://leetcode.com/problems/design-tinyurl"
  *
  * Explanation:
- * Solution obj = new Solution();
+ * ru.vvikhlyaev.leet.solutions.completed.Solution obj = new ru.vvikhlyaev.leet.solutions.completed.Solution();
  * string tiny = obj.encode(url); // returns the encoded tiny url.
  * string ans = obj.decode(tiny); // returns the original url after decoding it.
  *
